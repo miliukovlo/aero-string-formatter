@@ -1,6 +1,6 @@
 {
     "name": "aero-string-formatter",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "description": "Comprehensive string formatting utilities for numbers, prices, dates and more",
     "main": "dist/index.js",
     "types": "dist/index.d.ts",
@@ -18,7 +18,7 @@
       "formatting",
       "utility"
     ],
-    "author": "Your Name <your.email@example.com>",
+    "author": "Leonid leonid.miliukov@yandex.ru",
     "license": "MIT",
     "devDependencies": {
       "typescript": "^4.0.0",
