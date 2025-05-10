@@ -1,0 +1,31 @@
+{
+    "name": "aero-string-formatter",
+    "version": "1.0.2",
+    "description": "Comprehensive string formatting utilities for numbers, prices, dates and more",
+    "main": "dist/index.js",
+    "types": "dist/index.d.ts",
+    "scripts": {
+      "build": "tsc",
+      "prepublish": "npm run build",
+      "test": "jest"
+    },
+    "keywords": [
+      "formatter",
+      "string",
+      "price",
+      "date",
+      "number",
+      "formatting",
+      "utility"
+    ],
+    "author": "Your Name <your.email@example.com>",
+    "license": "MIT",
+    "devDependencies": {
+      "typescript": "^4.0.0",
+      "@types/jest": "^26.0.0",
+      "jest": "^26.0.0"
+    },
+    "files": [
+      "dist/**/*"
+    ]
+  }
