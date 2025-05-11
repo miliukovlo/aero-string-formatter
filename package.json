@@ -1,6 +1,6 @@
 {
     "name": "aero-string-formatter",
-    "version": "1.1.1",
+    "version": "1.1.2",
     "description": "Comprehensive string formatting utilities for numbers, prices, dates and more",
     "main": "dist/index.js",
     "types": "dist/index.d.ts",
@@ -18,8 +18,8 @@
       "formatting",
       "utility"
     ],
-    "author": "Leonid leonid.miliukov@yandex.ru",
-    "contributors": [{"name": "Demid", "url": "https://github.com/knyazWeb"}, {"name": "Denis", "url": "https://github.com/krylv"}],
+    "author": "Leonid https://github.com/miliukovlo",
+    "contributors": [{"name": "Demid", "url": "https://github.com/knyazWeb"}, {"name": "Denis", "url": "https://github.com/krylv"}, {"name": "Vladimir", "url": "https://github.com/vladimirplyukhin89"}],
     "license": "MIT",
     "devDependencies": {
       "typescript": "^4.0.0",
