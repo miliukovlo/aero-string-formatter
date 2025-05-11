@@ -1,6 +1,6 @@
 {
     "name": "aero-string-formatter",
-    "version": "1.0.3",
+    "version": "1.1.0",
     "description": "Comprehensive string formatting utilities for numbers, prices, dates and more",
     "main": "dist/index.js",
     "types": "dist/index.d.ts",
