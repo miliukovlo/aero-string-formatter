@@ -19,6 +19,7 @@
       "utility"
     ],
     "author": "Leonid leonid.miliukov@yandex.ru",
+    "contributors": [{"name": "Demid", "url": "https://github.com/knyazWeb"}, {"name": "Denis", "url": "https://github.com/krylv"}],
     "license": "MIT",
     "devDependencies": {
       "typescript": "^4.0.0",
