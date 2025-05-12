@@ -66,7 +66,8 @@ formatNumberToPriceIntl(1500.5, {
 
 ### 5. formatNumberToPriceString(value: string | number): string - Форматирование с единицами / Unit formatting
 ```ts
-Форматирование с единицами / Unit formatting
+formatNumberToPriceString(1500); // "1.50K"
+formatNumberToPriceString(2500000); // "2.50M"
 ```
 
 ### 6. formatNumberToRoman(num: number): string - Римские цифры / Roman numerals
