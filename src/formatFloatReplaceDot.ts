@@ -8,7 +8,7 @@
  *
  */
 
-export const floatToString = (value: number): string => {
+export const formatFloatReplaceDot = (value: number): string => {
     return value.toString().replace('.', ',');
   };
   

@@ -24,7 +24,7 @@
  * // Форматирование с дробной частью
  * priceFormatter(1234.56, ' ', ',', 2); // "1 234,56"
  */
-export const priceFormatter = (
+export const formatNumberWithSpaces = (
   price: string | number | undefined,
   thousandsSeparator: string = ' ',
   decimalSeparator: string = ',',

@@ -27,7 +27,7 @@
  * numberFormatterToRoman(1); // "I"
  * numberFormatterToRoman(3999); // "MMMCMXCIX"
  */
-export const numberFormatterToRoman = (number: number) => {
+export const formatNumberToRoman = (number: number) => {
   if (number < 1 || number > 3999) {
     throw new Error('Число должно быть в диапазоне от 1 до 3999');
   }

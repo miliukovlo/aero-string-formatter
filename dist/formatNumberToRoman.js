@@ -1,6 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.numberFormatterToRoman = void 0;
+exports.formatNumberToRoman = void 0;
 /**
  * Конвертирует арабское число в римскую цифру
  *
@@ -30,7 +30,7 @@ exports.numberFormatterToRoman = void 0;
  * numberFormatterToRoman(1); // "I"
  * numberFormatterToRoman(3999); // "MMMCMXCIX"
  */
-const numberFormatterToRoman = (number) => {
+const formatNumberToRoman = (number) => {
     if (number < 1 || number > 3999) {
         throw new Error('Число должно быть в диапазоне от 1 до 3999');
     }
@@ -56,4 +56,4 @@ const numberFormatterToRoman = (number) => {
         return result;
     }, '');
 };
-exports.numberFormatterToRoman = numberFormatterToRoman;
+exports.formatNumberToRoman = formatNumberToRoman;

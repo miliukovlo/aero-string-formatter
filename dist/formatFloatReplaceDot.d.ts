@@ -7,5 +7,5 @@
  * @returns {string} - отформатированная строка
  *
  */
-export declare const floatToString: (value: number) => string;
+export declare const formatFloatReplaceDot: (value: number) => string;
 //# sourceMappingURL=formatFloatReplaceDot.d.ts.map

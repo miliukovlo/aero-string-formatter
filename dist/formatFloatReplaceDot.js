@@ -9,8 +9,8 @@
  *
  */
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.floatToString = void 0;
-const floatToString = (value) => {
+exports.formatFloatReplaceDot = void 0;
+const formatFloatReplaceDot = (value) => {
     return value.toString().replace('.', ',');
 };
-exports.floatToString = floatToString;
+exports.formatFloatReplaceDot = formatFloatReplaceDot;

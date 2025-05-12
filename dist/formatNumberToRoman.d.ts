@@ -27,5 +27,5 @@
  * numberFormatterToRoman(1); // "I"
  * numberFormatterToRoman(3999); // "MMMCMXCIX"
  */
-export declare const numberFormatterToRoman: (number: number) => string;
+export declare const formatNumberToRoman: (number: number) => string;
 //# sourceMappingURL=formatNumberToRoman.d.ts.map

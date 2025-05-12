@@ -1,6 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.numberFormatterToPrice = void 0;
+exports.formatNumberToPriceIntl = void 0;
 /**
  * Форматирует число в денежный формат согласно локали и валюте
  *
@@ -23,7 +23,7 @@ exports.numberFormatterToPrice = void 0;
  * // Форматирование евро с двумя знаками после запятой
  * numberFormatterToPrice(1500.5, 'de-DE', 'EUR', 2, 2); // "1.500,50 €"
  */
-const numberFormatterToPrice = (value, country = 'ru-RU', currency = 'RUB', minFractionDigits = 0, maxFractionDigits = 0) => {
+const formatNumberToPriceIntl = (value, country = 'ru-RU', currency = 'RUB', minFractionDigits = 0, maxFractionDigits = 0) => {
     return new Intl.NumberFormat(country, {
         style: 'currency',
         currency: currency,
@@ -31,4 +31,4 @@ const numberFormatterToPrice = (value, country = 'ru-RU', currency = 'RUB', minF
         maximumFractionDigits: maxFractionDigits,
     }).format(value);
 };
-exports.numberFormatterToPrice = numberFormatterToPrice;
+exports.formatNumberToPriceIntl = formatNumberToPriceIntl;

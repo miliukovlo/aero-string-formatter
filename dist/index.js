@@ -14,11 +14,11 @@ var __exportStar = (this && this.__exportStar) || function(m, exports) {
     for (var p in m) if (p !== "default" && !Object.prototype.hasOwnProperty.call(exports, p)) __createBinding(exports, m, p);
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-__exportStar(require("./floatToString"), exports);
+__exportStar(require("./formatFloatReplaceDot"), exports);
 __exportStar(require("./formatDateToString"), exports);
 __exportStar(require("./formatLocalPhoneNumber"), exports);
 __exportStar(require("./formatNumberToPriceString"), exports);
 __exportStar(require("./getNoun"), exports);
-__exportStar(require("./numberFormatterToPrice"), exports);
-__exportStar(require("./numberFormatterToRoman"), exports);
-__exportStar(require("./priceFormatter"), exports);
+__exportStar(require("./formatNumberToPriceIntl"), exports);
+__exportStar(require("./formatNumberToRoman"), exports);
+__exportStar(require("./formatNumberWithSpaces"), exports);

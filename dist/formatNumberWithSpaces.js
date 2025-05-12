@@ -1,6 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.priceFormatter = void 0;
+exports.formatNumberWithSpaces = void 0;
 /**
  * Форматирует цену, добавляя разделители тысяч для лучшей читаемости
  *
@@ -27,7 +27,7 @@ exports.priceFormatter = void 0;
  * // Форматирование с дробной частью
  * priceFormatter(1234.56, ' ', ',', 2); // "1 234,56"
  */
-const priceFormatter = (price, thousandsSeparator = ' ', decimalSeparator = ',', decimalDigits = 0) => {
+const formatNumberWithSpaces = (price, thousandsSeparator = ' ', decimalSeparator = ',', decimalDigits = 0) => {
     // Обработка undefined и нечисловых строк
     const numericValue = Number(price || 0);
     // Округление и фиксация количества знаков после запятой
@@ -49,4 +49,4 @@ const priceFormatter = (price, thousandsSeparator = ' ', decimalSeparator = ',',
         ? `${formattedInteger}${decimalSeparator}${decimalPart}`
         : formattedInteger;
 };
-exports.priceFormatter = priceFormatter;
+exports.formatNumberWithSpaces = formatNumberWithSpaces;

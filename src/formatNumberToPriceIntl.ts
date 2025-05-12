@@ -20,7 +20,7 @@
  * // Форматирование евро с двумя знаками после запятой
  * numberFormatterToPrice(1500.5, 'de-DE', 'EUR', 2, 2); // "1.500,50 €"
  */
-export const numberFormatterToPrice = (
+export const formatNumberToPriceIntl = (
   value: number,
   country: string = 'ru-RU',
   currency: string = 'RUB',
