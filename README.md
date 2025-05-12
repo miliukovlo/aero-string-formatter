@@ -1,6 +1,6 @@
 # Aero String Formatter
 
-![npm](https://www.npmjs.com/package/aero-string-formatter)
+![npm](https://img.shields.io/npm/v/aero-string-formatter)
 ![license](https://img.shields.io/npm/l/aero-string-formatter)
 ![downloads](https://img.shields.io/npm/dt/aero-string-formatter)
 ![size](https://img.shields.io/bundlephobia/min/aero-string-formatter)
@@ -25,7 +25,7 @@ npm install aero-string-formatter
 yarn add aero-string-formatter
 ```
 
-## Функционал / Features: 
+## Функционал / Features:
 
 ### 1. formatDateToString(date: Date): string - Форматирование даты в строку / Date to string formatting
 ```ts
