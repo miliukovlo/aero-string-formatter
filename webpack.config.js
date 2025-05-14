@@ -13,7 +13,6 @@ module.exports = {
     minimize: true,
     usedExports: true
   },
-  devtool: 'source-map',
   resolve: {
     extensions: ['.ts', '.js'], // расширения файлов, которые нужно обрабатывать
   },
