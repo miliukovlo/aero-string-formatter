@@ -1,12 +1,12 @@
 const path = require('path');
 
 module.exports = {
-  mode: 'production', // или 'development' для разработки
-  entry: './src/index.ts', // путь к вашему файлу index.ts
+  mode: 'production',
+  entry: './src/index.ts',
   output: {
-    filename: 'bundle.js', // имя выходного файла
-    path: path.resolve(__dirname, 'dist'), // директория для выходного файла
-    libraryTarget: 'umd', // Поддержка CommonJS, AMD и глобальных переменных
+    filename: 'bundle.js',
+    path: path.resolve(__dirname, 'dist'),
+    libraryTarget: 'umd',
     globalObject: 'this'
   },
   optimization: {
@@ -15,12 +15,12 @@ module.exports = {
   },
   devtool: 'source-map',
   resolve: {
-    extensions: ['.ts', '.js'], // расширения файлов, которые нужно обрабатывать
+    extensions: ['.ts', '.js'],
   },
   module: {
     rules: [
       {
-        test: /.ts$/, // обрабатываем только .ts файлы
+        test: /.ts$/,
         use: 'ts-loader',
         exclude: /node_modules/,
       },
