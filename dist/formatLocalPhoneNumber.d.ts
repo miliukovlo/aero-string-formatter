@@ -8,4 +8,3 @@
  *
  */
 export declare const formatLocalPhoneNumber: (phoneNumber: string | number) => string;
-//# sourceMappingURL=formatLocalPhoneNumber.d.ts.map

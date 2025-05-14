@@ -6,4 +6,3 @@ export * from './getNoun';
 export * from './formatNumberToPriceIntl';
 export * from './formatNumberToRoman';
 export * from './formatNumberWithSpaces';
-//# sourceMappingURL=index.d.ts.map

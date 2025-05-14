@@ -8,4 +8,3 @@
  *
  */
 export declare const formatNumberToPriceString: (value: string | number) => string;
-//# sourceMappingURL=formatNumberToPriceString.d.ts.map

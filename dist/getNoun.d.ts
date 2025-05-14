@@ -12,4 +12,3 @@
  */
 declare const getNoun: (amount: number, singular: string, binary: string, multi: string) => string;
 export { getNoun };
-//# sourceMappingURL=getNoun.d.ts.map

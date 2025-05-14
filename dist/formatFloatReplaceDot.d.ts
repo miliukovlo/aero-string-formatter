@@ -8,4 +8,3 @@
  *
  */
 export declare const formatFloatReplaceDot: (value: number) => string;
-//# sourceMappingURL=formatFloatReplaceDot.d.ts.map

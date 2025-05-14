@@ -9,4 +9,3 @@
  */
 declare const formatDateToString: (date: Date) => string;
 export { formatDateToString };
-//# sourceMappingURL=formatDateToString.d.ts.map

@@ -25,4 +25,3 @@
  * priceFormatter(1234.56, ' ', ',', 2); // "1 234,56"
  */
 export declare const formatNumberWithSpaces: (price: string | number | undefined, thousandsSeparator?: string, decimalSeparator?: string, decimalDigits?: number) => string;
-//# sourceMappingURL=formatNumberWithSpaces.d.ts.map
