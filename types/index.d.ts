@@ -6,3 +6,4 @@ export * from './getNoun';
 export * from './formatNumberToPriceIntl';
 export * from './formatNumberToRoman';
 export * from './formatNumberWithSpaces';
+export declare const __FORCE_WEBPACK_EXPORTS = true;

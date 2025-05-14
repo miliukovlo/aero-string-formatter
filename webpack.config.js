@@ -1,17 +1,18 @@
 const path = require('path');
 
 module.exports = {
-  mode: 'production', 
+  mode: 'production',
   entry: './src/index.ts',
   output: {
-    filename: 'bundle.js',
+    filename: 'index.js',
     path: path.resolve(__dirname, 'dist'),
+    library: 'aero-string-formatter',
     libraryTarget: 'umd',
     globalObject: 'this'
   },
   optimization: {
     minimize: true,
-    usedExports: true
+    usedExports: false,
   },
   resolve: {
     extensions: ['.ts', '.js'],
@@ -19,8 +20,16 @@ module.exports = {
   module: {
     rules: [
       {
-        test: /.ts$/,
-        use: 'ts-loader',
+        test: /\.ts$/,
+        use: {
+          loader: 'ts-loader',
+          options: {
+            compilerOptions: {
+              declaration: true, // Генерируем .d.ts
+              declarationDir: path.resolve(__dirname, 'types')
+            }
+          }
+        },
         exclude: /node_modules/,
       },
     ],
